@@ -68,3 +68,24 @@ end tell
 
 // notes:  
 	https://stackoverflow.com/questions/4965730/how-do-i-scroll-to-the-top-of-a-window-using-applescript
+
+-- close browser required. every window fails to close browser entirely.
+-- must open 16x tabs per hour to view 4 page ads.
+-- open tab = tab that is clicked to open, not default open when browser = activate.
+-- consistent, sustained use result in pop-up ads. figure out a way to trigger this via autotyping, autoscrolling, url inputs, etc.
+-- ensure browser is closed for X minutes, and open for X minutes + ensure activity occurs in order to trigure pop-up ads. 
+-- can this run undetected, behind the scenes, 24hr a day, regardless of who is logged in, and have it immediately start upon log in? 
+-- can this script also turn on the computer when it is shut down?
+-- can you run a script immediately when a computer is turned on, irregardless of login or not, and irregardless of who is logged in or not?
+-- run a script to enter login username and password remotely via autotyping?
+-- run a script when mac powers on + on sign-in
+-- run three scripts simultaneously in three different script browsers
+
+-- AT BHS:
+-- number the computers and keep track of passwords
+-- test display to see if script runs when turned off
+-- make sure all displays are turned on and computers never go to sleep
+-- determine Dell operating system
+-- access moms usernames/passwords
+-- get keys from mom
+-- created shared note between Grayden with passwords and Gemini information
