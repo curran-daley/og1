@@ -1,3 +1,4 @@
+// v1
 set loc1 to {404, 22}
 set loc2 to {900, 22}
 set loc3 to {1342, 22}
@@ -5,7 +6,7 @@ set loc4 to {373, 22}
 set loc5 to {867, 22}
 set loc6 to {1308, 22}
 
-repeat 10000 times
+repeat 100000000 times
 	tell application "System Events"
 		delay 15
 		activate application "Brave Browser"
@@ -49,3 +50,7 @@ repeat 10000 times
 		delay 10
 	end tell
 end repeat
+
+
+
+// v2
