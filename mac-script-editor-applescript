@@ -73,12 +73,3 @@ end tell
 -- run times: date + time
 	run when computer turns on OR any user signs in
 	run behind the scenes, 24hr a day, regardless of user logged in
-
--- AT BHS:
--- number the computers and keep track of passwords
--- test display to see if script runs when turned off
--- make sure all displays are turned on and computers never go to sleep
--- determine Dell operating system
--- access moms usernames/passwords
--- get keys from mom
--- created shared note between Grayden with passwords and Gemini information
