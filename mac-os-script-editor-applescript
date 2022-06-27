@@ -73,3 +73,4 @@ end tell
 -- run times: date + time + loop
 	run when computer turns on OR any user signs in
 	run behind the scenes, 24hr a day, regardless of user logged in
+	run when screen = off
