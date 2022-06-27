@@ -1,4 +1,4 @@
-// v1
+// v1: 24/7 loop
 set loc1 to {404, 22}
 set loc2 to {900, 22}
 set loc3 to {1342, 22}
