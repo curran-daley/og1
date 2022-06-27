@@ -70,6 +70,6 @@ end tell
 	https://stackoverflow.com/questions/4965730/how-do-i-scroll-to-the-top-of-a-window-using-applescript
 
 -- autotyping, autoscrolling, url inputs
--- run times: date + time
+-- run times: date + time + loop
 	run when computer turns on OR any user signs in
 	run behind the scenes, 24hr a day, regardless of user logged in
