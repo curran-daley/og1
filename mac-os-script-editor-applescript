@@ -51,8 +51,6 @@ repeat 100000000 times
 	end tell
 end repeat
 
-
-
 // v2.1
 activate application "Brave Browser"
 delay 15
@@ -67,8 +65,7 @@ tell application "Google Chrome" to tell active tab of window 1
 end tell
 
 // notes:  
-	https://stackoverflow.com/questions/4965730/how-do-i-scroll-to-the-top-of-a-window-using-applescript
-
+-- https://stackoverflow.com/questions/4965730/how-do-i-scroll-to-the-top-of-a-window-using-applescript
 -- autotyping, autoscrolling, url inputs
 -- run times: date + time + loop
 	run when computer turns on OR any user signs in
