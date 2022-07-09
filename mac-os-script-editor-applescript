@@ -1,4 +1,4 @@
-// v1: 24/7 loop
+// v1
 set loc1 to {404, 22}
 set loc2 to {900, 22}
 set loc3 to {1342, 22}
@@ -63,11 +63,3 @@ delay 15
 tell application "Google Chrome" to tell active tab of window 1
 	execute javascript "window.scroll(0,0)"
 end tell
-
-// notes:  
--- https://stackoverflow.com/questions/4965730/how-do-i-scroll-to-the-top-of-a-window-using-applescript
--- autotyping, autoscrolling, url inputs
--- run times: date + time + loop
-	run when computer turns on OR any user signs in
-	run behind the scenes, 24hr a day, regardless of user logged in
-	run when screen = off
