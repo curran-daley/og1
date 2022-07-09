@@ -50,16 +50,3 @@ repeat 100000000 times
 		delay 10
 	end tell
 end repeat
-
-// v2.1
-activate application "Brave Browser"
-delay 15
-key code 121 -- page down = fn + down key
-delay 15
-key code 116 -- page up = fn + up key
-delay 15
-
-// v2.2
-tell application "Google Chrome" to tell active tab of window 1
-	execute javascript "window.scroll(0,0)"
-end tell
