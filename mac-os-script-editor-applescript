@@ -13,7 +13,7 @@ repeat 100000000 times
 		activate application "Brave Browser Nightly"
 		delay 15
 		activate application "Brave Browser Beta"
-		repeat 10 times
+		repeat 20 times
 			delay 15
 			click at loc1
 			delay 30
