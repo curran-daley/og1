@@ -1,20 +1,16 @@
-set loc1 to {404, 22}
-set loc2 to {900, 22}
-set loc3 to {1342, 22}
-set loc4 to {373, 22}
-set loc5 to {867, 22}
-set loc6 to {1308, 22}
+set loc1 to {492, 22}
+set loc2 to {907, 22}
+set loc3 to {367, 22}
+set loc4 to {872, 22}
 
-repeat 100000000 times
+repeat 1000 times
 	tell application "System Events"
 		delay 15
 		activate application "Brave Browser"
 		delay 15
-		activate application "Brave Browser Nightly"
-		delay 15
 		activate application "Brave Browser Beta"
-		repeat 20 times
-			delay 15
+		delay 15
+		repeat 10 times
 			click at loc1
 			delay 30
 			click at loc1
@@ -30,20 +26,10 @@ repeat 100000000 times
 			click at loc4
 			delay 30
 			click at loc4
-			delay 15
-			click at loc5
-			delay 30
-			click at loc5
-			delay 15
-			click at loc6
-			delay 30
-			click at loc6
 			delay 15
 		end repeat
 		delay 10
 		quit application "Brave Browser"
-		delay 10
-		quit application "Brave Browser Nightly"
 		delay 10
 		quit application "Brave Browser Beta"
 		delay 10
