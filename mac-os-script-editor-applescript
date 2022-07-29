@@ -6,9 +6,9 @@ set loc4 to {872, 22}
 repeat 1000 times
 	tell application "System Events"
 		delay 30
-		activate application "Brave Browser"
-		delay 30
 		activate application "Brave Browser Beta"
+		delay 30
+		activate application "Brave Browser"
 		delay 30
 		repeat 10 times
 			click at loc1
@@ -29,9 +29,9 @@ repeat 1000 times
 			delay 30
 		end repeat
 		delay 30
-		quit application "Brave Browser"
-		delay 30
 		quit application "Brave Browser Beta"
+		delay 30
+		quit application "Brave Browser Browser"
 		delay 30
 	end tell
 end repeat
